@@ -13,3 +13,8 @@ As you know, Linear regression finds a function that relates a continuous depend
 and finds the values of parameters θ0, θ1, 𝜃2, etc, where the term 𝜃0 is the "intercept". It can be generally shown as:
 
                                                              hθ(x)=θTX
+Logistic Regression is a variation of Linear Regression, useful when the observed dependent variable, y, is categorical. It produces a formula that predicts the probability of the class label as a function of the independent variables.
+
+Logistic regression fits a special s-shaped curve by taking the linear regression and transforming the numeric estimate into a probability with the following function, which is called sigmoid function 𝜎:
+
+                                                           hθ(x)=σ(θTX)=e(θ0+θ1∗x1+θ2∗x2+...)1+e(θ0+θ1∗x1+θ2∗x2+...)
