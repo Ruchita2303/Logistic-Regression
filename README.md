@@ -17,4 +17,4 @@ Logistic Regression is a variation of Linear Regression, useful when the observe
 
 Logistic regression fits a special s-shaped curve by taking the linear regression and transforming the numeric estimate into a probability with the following function, which is called sigmoid function 𝜎:
 
-                                                           hθ(x)=σ(θTX)=e(θ0+θ1∗x1+θ2∗x2+...)1+e(θ0+θ1∗x1+θ2∗x2+...)
+                      hθ(x)=σ(θTX)=e(θ0+θ1∗x1+θ2∗x2+...)1+e(θ0+θ1∗x1+θ2∗x2+...)
